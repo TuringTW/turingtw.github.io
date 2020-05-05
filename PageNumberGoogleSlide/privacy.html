@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<title>Privacy term | Page Number for Google Slide</title>
+</head>
+<body>
+	<div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Page Number for Google Slide</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+				<li class="nav-item">
+				<a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link" href="https://github.com/TuringTW/PageNumberGoogleSlide">Github</a>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link active" href="./privacy.html">Privacy</a>
+				</li>
+				</ul>
+			</div>
+		</nav>
+		<br>
+		<div id="privacy">
+##Privacy Policy
+
+This privacy policy has been compiled to better serve those who are concerned with how their 'Personally Identifiable Information' (PII) is being used online. PII, as described in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our Application.
+
+###What personal information do we collect from the people that visit our blog, website or app?
+
+When installing our application, as appropriate, you may be asked to provide your name, your email address. Besides, we will process the following data when you using our application
+- Total page number in slides
+- Current page number in slides
+- The style you set to a default template
+
+###When do we collect information?
+
+We collect information from you when you install and run the application.
+
+###How do we use your information?
+
+We may use the information in your google presentation to insert proper page number.
+
+###How do we protect your information?
+
+We would not store your personal information via our application. Besides, our code is scanned on a regular basis for security holes and known vulnerabilities.
+
+###Third-party disclosure
+
+We do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information.
+
+###Third-party links
+
+We do not include or offer third-party products or services on our application.
+
+
+###Other information
+
+Our Privacy Policy link includes the word 'Privacy' and can easily be found on the page specified above.
+
+####You will be notified of any Privacy Policy changes:
+
+On our Privacy Policy Page
+
+####Can change your personal information:
+
+By emailing us
+
+####Does our site allow third-party behavioral tracking?
+
+It’s also important to note that we do not allow third-party behavioral tracking
+		</div>
+	</div>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+	<script type="text/javascript">
+		var converter = new showdown.Converter()
+		var text = $('#privacy').html()
+		var html = converter.makeHtml(text)
+		$('#privacy').html(html)
+	</script>
+</body>
+</html>
